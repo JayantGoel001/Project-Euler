@@ -3,4 +3,4 @@ project(project_euler)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(. "2.Even Fibonacci numbers.cpp")
+add_executable(. "3.Largest prime factor.cpp")
