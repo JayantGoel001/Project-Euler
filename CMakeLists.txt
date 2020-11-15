@@ -3,4 +3,4 @@ project(project_euler)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(. "8.Largest product in a series.cpp")
+add_executable(. "9.Special Pythagorean triplet.cpp")
