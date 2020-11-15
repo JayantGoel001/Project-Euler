@@ -3,4 +3,4 @@ project(project_euler)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(. "4.Largest palindrome product.cpp")
+add_executable(. "5.Smallest Multiple.cpp")
