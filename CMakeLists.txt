@@ -3,4 +3,4 @@ project(project_euler)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(. "7.10001st prime.cpp")
+add_executable(. "8.Largest product in a series.cpp")
