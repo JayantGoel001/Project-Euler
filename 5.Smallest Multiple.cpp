@@ -6,18 +6,18 @@ using namespace std;
 int main(){
     int n=20;
     int ar[n+1];
-    for (int i = 1; i <=20 ; ++i) {
+    for (int i = 1; i <=n ; ++i) {
         ar[i] = i;
     }
-    for (int i = 2; i <=20 ; ++i) {
-        for (int j = i+1; j <=20 ; j++) {
-            if (ar[j]%ar[i]==0){
+    for (int i = 2; i <=n ; ++i) {
+        for (int j = i; j <=n ; j+=i) {
+            if (i!=j && ar[j]%ar[i]==0){
                 ar[j]/=ar[i];
             }
         }
     }
     int output =1;
-    for (int i = 1; i <=20; ++i) {
+    for (int i = 1; i <=n; ++i) {
         output*=ar[i];
     }
     cout<<output;
