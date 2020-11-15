@@ -3,4 +3,4 @@ project(project_euler)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(. "6.Sum square difference.cpp")
+add_executable(. "7.10001st prime.cpp")
