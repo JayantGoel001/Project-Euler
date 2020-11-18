@@ -3,4 +3,4 @@ project(project_euler)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(. "10.Summation of primes.cpp")
+add_executable(. "10.cpp")
